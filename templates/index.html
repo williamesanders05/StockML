@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock<span style = "color: #2FFF00">ML</span></h1>
+        <div class="form">
+            <form action = "/" method="post">
+                <input type="text" name="ticker" id="ticker" autocapitalize="on" placeholder="ticker">
+                <br>
+                <button id="submit" type="submit">Predict</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById('submit');
+        button.addEventListener('click', () => {
+            button.innerHTML = 'Predicting...';
+        });
+    </script>
+</body>
+</html>

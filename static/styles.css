@@ -1,0 +1,50 @@
+body {
+    background-image:
+    linear-gradient(
+        to bottom, #7E7E7E, #000000
+    );
+    font-family: 'IBM Plex Mono';
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 7vw;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+#ticker {
+    text-align: center;
+    width: 50vw;
+    height: 4vw;
+    border-radius: 25px;
+    font-size: 3vw;
+}
+button {
+    background-color: #2FFF00;
+    color: #FFFFFF;
+    width: fit-content;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 2vw;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}

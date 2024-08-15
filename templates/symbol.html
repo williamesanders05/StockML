@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <a href="/"><h1>Stock<span style = "color: #2FFF00">ML</span></h1></a>
+        <h2>{{ticker}}</h2>
+        <ul>
+            <li>Open: {{open}}</li>
+            <li>Current High: {{high}}</li>
+            <li>Current Low: {{low}}</li>
+            <li>Predicted Close: <span style = "color: #2FFF00">{{close}}</span></li>
+        </ul>
+    </div>
+</body>
+</html>
