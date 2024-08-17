@@ -1,4 +1,3 @@
-import time
 from flask import Flask, render_template, request
 from alpha_vantage.timeseries import TimeSeries
 import numpy as np
