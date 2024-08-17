@@ -11,7 +11,7 @@ def index():
     if request.method == "POST":
         ticker = request.form["ticker"]
         #get daily and intraday data
-        ts = TimeSeries(key='demo', output_format='pandas')
+        ts = TimeSeries(key='ZAW10ODA2OT1H0A8', output_format='pandas')
         daily, meta_daily = ts.get_daily(symbol=ticker, outputsize='compact')
         intra, meta_intra = ts.get_intraday(symbol=ticker, interval='5min', outputsize='compact')
         #get current high and low from intraday data
